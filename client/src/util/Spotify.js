@@ -94,7 +94,8 @@ const Spotify = {
 							}
 						)
 						.then((jsonResponse) => {
-							playlistID = jsonResponse.id;
+                            playlistID = jsonResponse.id;
+                            /* addPlaylistToDb(playlistID); */
 							return fetch(`https://api.spotify.com/v1/users/${userID}/playlists/${playlistID}/tracks`, {
 								method: 'POST',
 								headers: headers,
