@@ -1,5 +1,6 @@
 import React from "react";
 import "./Spotify.css";
+import SpotifyImg from '../assets/spotify.png';
 
 function About() {
   const floatL = {
@@ -11,6 +12,8 @@ function About() {
       <p class="lightgreen" class="aboutTitle">
         GEOJAMMER
       </p>
+      <img className="spotify_img" src={SpotifyImg} alt="" />
+      <br/>
 
       <p class="aboutDiv">
         {" "}
