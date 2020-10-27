@@ -1,0 +1,12 @@
+h1 {
+    margin: 0 auto;
+    padding: .77rem 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.88rem;
+    color: rgb(128, 128, 128);
+}
+  
+h1 .highlight {
+    color: #e6defc;
+}
