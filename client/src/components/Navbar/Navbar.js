@@ -25,11 +25,7 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/Spotify">
-              Spotify
-            </Link>
-          </li>
+          
         </ul>
       </div>
     </nav>
