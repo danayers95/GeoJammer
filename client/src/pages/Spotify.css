@@ -4,6 +4,15 @@ html,
   height: 100%;
 }
 
+.spotify_img {
+  height: 120px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+}
+
 body {
   background-color: rgb(181, 194, 235);
 }
@@ -42,7 +51,7 @@ h2 {
   /* padding: 10%; */
   margin: auto;
   width: 50%;
-  height: 950px;
+  height: 900px;
   overflow-y: scroll;
   padding: 0.88rem;
   background-color: rgba(86, 95, 136, 0.7);
