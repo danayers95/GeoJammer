@@ -1,6 +1,10 @@
 import React from "react";
 import useGeolocation from "react-hook-geolocation";
+<<<<<<< HEAD:client/src/components/Geolocator/Geolocator.js
 import "./Geolocator.css";
+=======
+import './Geolocator.css';
+>>>>>>> main:client/src/components/Geolocator.js
 
 const Geolocator = () => {
   const geolocation = useGeolocation({
@@ -10,15 +14,15 @@ const Geolocator = () => {
   });
   // console.log("success");
   return !geolocation.error ? (
-    <ul>
-      <li>Latitude: {geolocation.latitude}</li>
-      <li>Longitude: {geolocation.longitude}</li>
-      <li>Location accuracy: {geolocation.accuracy}</li>
-      <li>Altitude: {geolocation.altitude}</li>
-      <li>Altitude accuracy: {geolocation.altitudeAccuracy}</li>
-      <li>Heading: {geolocation.heading}</li>
-      <li>Speed: {geolocation.speed}</li>
-      <li>Timestamp: {geolocation.timestamp}</li>
+    <ul className="list-group geo">
+      <li className="list-group-item">Latitude: {geolocation.latitude}</li>
+      <li className="list-group-item">Longitude: {geolocation.longitude}</li>
+      <li className="list-group-item">Location accuracy: {geolocation.accuracy}</li>
+      <li className="list-group-item">Altitude: {geolocation.altitude}</li>
+      <li className="list-group-item">Altitude accuracy: {geolocation.altitudeAccuracy}</li>
+      <li className="list-group-item">Heading: {geolocation.heading}</li>
+      <li className="list-group-item">Speed: {geolocation.speed}</li>
+      <li className="list-group-item">Timestamp: {geolocation.timestamp}</li>
     </ul>
   ) : (
     <p>No geolocation, sorry.</p>
