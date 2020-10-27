@@ -64,9 +64,6 @@ class SpotifyApp extends Component {
   render() {
     return (
       <div>
-        <h1>
-          GEO<span className="highlight">JAM</span>MER
-        </h1>
         <div className="App">
           <SearchBar onSearch={this.search} />
           <div className="App-playlist">
