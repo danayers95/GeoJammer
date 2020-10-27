@@ -17,11 +17,5 @@
     "url": "https://github.com/danglayers/GeoJammer/issues"
   },
   "homepage": "https://github.com/danglayers/GeoJammer#readme",
-  "keywords": [],
-  "dependencies": {
-    "connect-mongo": "^3.2.0",
-    "express": "^4.17.1",
-    "mongodb": "^3.6.2",
-    "mongoose": "^5.10.11"
-  }
+  "keywords": []
 }

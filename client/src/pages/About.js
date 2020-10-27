@@ -1,8 +1,6 @@
 import React from "react";
 import "./Spotify.css";
-const divStyle = {
-  //   color: "blue",
-};
+
 function About() {
   const floatL = {
     float: "left",
