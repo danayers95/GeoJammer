@@ -11,7 +11,6 @@ function About() {
       <p class="lightgreen" class="aboutTitle">
         GEOJAMMER
       </p>
-      <p>{/* little bit of info about GeoJammer */}</p>
 
       <p class="aboutDiv">
         {" "}
