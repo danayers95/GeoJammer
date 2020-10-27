@@ -1,6 +1,5 @@
 import React from "react";
 import useGeolocation from "react-hook-geolocation";
-import "./Geolocator.css";
 
 const Geolocator = () => {
   const geolocation = useGeolocation({
