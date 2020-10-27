@@ -13,7 +13,6 @@ html {
 }
 
 
-
 .App-playlist {
   display: flex;
   justify-content: space-between;
@@ -27,17 +26,25 @@ html {
   }
 }
 
-
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.55rem;
 }
 
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 500;
   color: rgb(255, 255, 255);
 }
 
+.aboutDiv {
+  padding: 10%;
+}
+.aboutTitle {
+  text-align: center;
+  float: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
