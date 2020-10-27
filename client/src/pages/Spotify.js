@@ -5,6 +5,8 @@ import SearchBar from "../components/SearchBar/SearchBar";
 import SearchResults from "../components/SearchResults/SearchResults";
 import PlayList from "../components/PlayList/PlayList";
 import Geolocator from "../components/Geolocator/Geolocator";
+import SpotifyImg from '../assets/spotify.png';
+
 
 class SpotifyApp extends Component {
   constructor(props) {
@@ -66,6 +68,8 @@ class SpotifyApp extends Component {
       <div>
         <div className="App">
           <SearchBar onSearch={this.search} />
+          <img className="spotify_img" src={SpotifyImg} alt="" />
+          <br/>
           <div className="App-playlist">
             <SearchResults
               searchResults={this.state.searchResults}
