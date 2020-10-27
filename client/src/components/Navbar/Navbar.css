@@ -1,12 +1,14 @@
 h1 {
-    margin: 0 auto;
-    padding: .77rem 0;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.88rem;
-    color: rgb(128, 128, 128);
+  margin: 0 auto;
+  padding: 0.77rem 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.88rem;
+  color: rgb(128, 128, 128);
+  font-family: "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", Arial, sans-serif;
 }
-  
+
 h1 .highlight {
-    color: #e6defc;
+  color: #e6defc;
 }
