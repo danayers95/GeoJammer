@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <span className="navbar-brand mb-1 h1">GeoJammer</span>
+      <Link className="nav-link" to="/Spotify"><h1>GEO<span className="highlight">JAM</span>MER</h1></Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -18,11 +19,7 @@ function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="nav navbar-nav navbar-right">
-          <li className="nav-item">
-            <Link className="nav-link" to="/Home">
-              Home
-            </Link>
-          </li>
+          
           <li className="nav-item">
             <Link className="nav-link" to="/About">
               About
