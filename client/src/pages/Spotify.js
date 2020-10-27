@@ -4,7 +4,7 @@ import Spotify from "../util/Spotify";
 import SearchBar from "../components/SearchBar/SearchBar";
 import SearchResults from "../components/SearchResults/SearchResults";
 import PlayList from "../components/PlayList/PlayList";
-import Geolocator from "../components/Geolocator";
+import Geolocator from "../components/Geolocator/Geolocator";
 
 class SpotifyApp extends Component {
   constructor(props) {

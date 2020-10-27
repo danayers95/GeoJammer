@@ -1,5 +1,3 @@
-/* import useGeolocation from "react-hook-geolocation"; */
-/* const Playlist = require('../database/models/playlist.model.js'); */
 const clientId = '18925ff9dd7f4169a43c7e546dfbea80';
 const redirect_uri = 'http://localhost:3000/callback';
 let accessToken;
@@ -97,14 +95,6 @@ const Spotify = {
 						)
 						.then((jsonResponse) => {
                             playlistID = jsonResponse.id;
-                            /* const geolocation = useGeolocation({
-                                enableHighAccuracy: true,
-                                maximumAge: 15000,
-                                timeout: 12000,
-                            }); */
-                            /* const newPlaylist = new Playlist({ playlistName: playlistID, coordinates: 'test'});
-                            newPlaylist.save(null); */
-                            /* Playlist.createPlaylist(playlistID, (geolocation.latitude.toString() + geolocation.longitude.toString())); */
                             /* addPlaylistToDb(playlistID); */
 							return fetch(`https://api.spotify.com/v1/users/${userID}/playlists/${playlistID}/tracks`, {
 								method: 'POST',
